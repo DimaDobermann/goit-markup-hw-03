@@ -158,9 +158,6 @@ img {
   background-color: #404bbf;
 }
 
-
-
-
 .features {
   padding: 120px 0;
 }
@@ -183,9 +180,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  
-  
-  
 }
 .features-text {
   font-weight: 400;
@@ -193,26 +187,17 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-    
-  
-  }
+  width: calc((100% - 72px) / 4);
+  gap: 24px;
+  margin-bottom: 8px;
+}
 
 .features-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
-  
 }
 .features-item {
- 
 }
-
-
-
-
-
-
-
 
 .our-team {
   background-color: #f4f4fd;
@@ -293,22 +278,9 @@ img {
   text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .footer {
   background: #2e2f42;
   padding: 100px 0;
-
 }
 .footer-logo {
   font-weight: 700;
@@ -318,7 +290,7 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
-  display: inline-block; 
+  display: inline-block;
   margin-bottom: 16px;
 }
 .raleway {
@@ -336,6 +308,4 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  
-  
 }
