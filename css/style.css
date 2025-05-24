@@ -168,6 +168,7 @@ margin: 0 auto;
 .hero-button{
 margin: 0 auto;
 
+
 }
 
 .button:hover,
@@ -197,7 +198,7 @@ margin: 0 auto;
   letter-spacing: 0.02em;
   color: #434455;
   padding: 8px;
-  
+
 }
 .features-list{
   display: flex;
@@ -206,9 +207,10 @@ margin: 0 auto;
   padding-left: 156px;
   padding-right: 156px;
  
-
 }
-
+.features-item{
+  width: calc((100% - 72px * 3) / 4);
+}
 
 
 
