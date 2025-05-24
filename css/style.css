@@ -140,6 +140,8 @@ align-items: center;
   text-align: center;
   color: #fff;
   background-color: #2e2f42;
+  max-width: 496px;
+  margin: 0 auto;
   
 }
 
@@ -149,6 +151,11 @@ align-items: center;
   background-color: #2e2f42;
 }
 .button {
+  border-radius: 4px;
+padding: 16px 32px;
+min-width: 169px;
+height: 56px;
+margin: 0 auto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -156,6 +163,11 @@ align-items: center;
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
+}
+
+.hero-button{
+margin: 0 auto;
+
 }
 
 .button:hover,
@@ -184,7 +196,23 @@ align-items: center;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding: 8px;
+  
 }
+.features-list{
+  display: flex;
+  gap: 24px;
+  margin: 120px;
+  padding-left: 156px;
+  padding-right: 156px;
+ 
+
+}
+
+
+
+
+
 
 .our-team {
   background-color: #f4f4fd;
