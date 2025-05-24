@@ -202,14 +202,9 @@ img {
   gap: 24px;
   width: calc((100% - 72px) / 4);
   
-  
-  
 }
 .features-item {
  
-  
-  
-  
 }
 
 
@@ -298,8 +293,22 @@ img {
   text-align: center;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 .footer {
   background: #2e2f42;
+  padding: 100px 0;
+
 }
 .footer-logo {
   font-weight: 700;
@@ -325,4 +334,5 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  
 }
