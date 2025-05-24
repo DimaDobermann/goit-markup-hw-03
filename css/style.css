@@ -27,6 +27,9 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
+img{
+  display: block;
+}
 
 
 
@@ -129,7 +132,7 @@ align-items: center;
 
 
 .hero-title{
-  padding: 188px 472px 292px 472px;
+  padding: 188px 0px 188px;
 }
 
 .hero-text {
@@ -142,6 +145,8 @@ align-items: center;
   background-color: #2e2f42;
   max-width: 496px;
   margin: 0 auto;
+  
+
   
 }
 
@@ -163,10 +168,12 @@ margin: 0 auto;
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
+  display: block;
 }
 
 .hero-button{
 margin: 0 auto;
+
 
 
 }
@@ -198,6 +205,7 @@ margin: 0 auto;
   letter-spacing: 0.02em;
   color: #434455;
   padding: 8px;
+  margin-bottom: 8px;
 
 }
 .features-list{
