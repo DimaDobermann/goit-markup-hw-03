@@ -119,17 +119,14 @@ align-items: center;
 
 
 
+.hero {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #474a76;
+}
 
 
-
-
-
-
-
-
-
-
-.hero-title{
+.hero-title {
   padding: 188px 0;
 }
 
@@ -143,15 +140,9 @@ align-items: center;
   background-color: #2e2f42;
   max-width: 496px;
   margin: 0 auto;
- 
 }
 
-.hero {
-  max-width: 1440px;
-  margin: 0 auto;
-  background-color: #2e2f42;
   
-}
 .button {
   border-radius: 4px;
 padding: 16px 32px;
@@ -169,9 +160,6 @@ margin: 0 auto;
   border: none;
 }
 
-
-
-
 .button:hover,
 .button:focus {
   background-color: #404bbf;
@@ -182,11 +170,15 @@ margin: 0 auto;
 
 
 
+
+
+
+
+
 .features{
   padding: 120px 0;
 
 }
-
 
 .features-subtitle {
   font-weight: 500;
@@ -204,6 +196,7 @@ margin: 0 auto;
   color: #434455;
   padding: 8px;
   margin-bottom: 8px;
+  width: calc((100% - 72px) / 4);
 
 }
 .features-list{
@@ -215,7 +208,7 @@ margin: 0 auto;
  
 }
 .features-item{
-  width: calc((100% - 72px) / 4);
+ 
 }
 
 
