@@ -246,6 +246,7 @@ img {
   color: #2e2f42; 
   background-color: #ffffff;
   padding: 32px 0;
+  
 }
 .team-text {
   font-weight: 400;
@@ -279,13 +280,19 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+
 }
 
 .card-list {
   background-color: #ffffff;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
 }
 
 .card-item {
+  width: calc((100% - 48px) / 3);
 }
 
 .card-subtitle {
@@ -296,6 +303,10 @@ img {
   color: #2e2f42;
   text-align: center;
 }
+.card-subtitle-text{
+
+}
+
 
 .card-text {
   font-weight: 400;
