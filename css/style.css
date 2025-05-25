@@ -164,17 +164,17 @@ img {
 .features {
   padding: 120px 0;
 }
-.hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
-  padding: 0;
   margin: -1px;
-  white-space: nowrap;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  clip-path: inset(100%);
   border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .features-subtitle {
@@ -184,7 +184,6 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  width: calc((100% - 72px) / 4);
 }
 .features-text {
   font-weight: 400;
@@ -200,6 +199,7 @@ img {
 }
 
 .features-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .our-team {
@@ -216,7 +216,7 @@ img {
   text-transform: capitalize;
   text-align: center;
   background-color: #ffffff;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team-list {
