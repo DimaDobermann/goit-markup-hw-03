@@ -184,6 +184,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  width: calc((100% - 72px) / 4);
 }
 .features-text {
   font-weight: 400;
@@ -195,8 +196,6 @@ img {
 
 .features-list {
   display: flex;
-  width: calc((100% - 72px) / 4);
-  width: 264px;
   gap: 24px;
 }
 
@@ -217,13 +216,18 @@ img {
   text-transform: capitalize;
   text-align: center;
   background-color: #ffffff;
+  padding-bottom: 72px;
 }
 
 .team-list {
   background-color: #ffffff;
+  display: flex;
+  gap: 24px;
 }
 .team-item {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 .team-subtitle {
   font-weight: 500;
@@ -233,6 +237,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   background-color: #ffffff;
+  padding: 32px 0;
 }
 .team-text {
   font-weight: 400;
@@ -242,6 +247,8 @@ img {
   color: #434455;
   text-align: center;
   background-color: #ffffff;
+  margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 .project-card {
