@@ -1,7 +1,9 @@
-ul {
+ul,
+ol {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 h1,
 h2,
@@ -10,7 +12,8 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 a {
@@ -29,7 +32,7 @@ body {
 }
 
 .container {
-  max-width: 1158px;
+  width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -114,16 +117,8 @@ img {
 .header-address-item {
 }
 
-
-
-
-
-
-
 .hero {
-  max-width: 1440px;
-  margin: 0 auto;
-  background-color: #474a76;
+  background-color: #2e2f42;
   padding: 188px 0;
 }
 
@@ -137,17 +132,10 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  background-color: #2e2f42;
-  max-width: 496px;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .button {
-  border-radius: 4px;
-  padding: 16px 32px;
-  min-width: 169px;
-  height: 56px;
-  margin: 0 auto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -155,8 +143,7 @@ img {
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
-  display: block;
-  border: none;
+  margin-top: 48px;
 }
 
 .button:hover,
@@ -164,18 +151,11 @@ img {
   background-color: #404bbf;
 }
 
-
-
-
-
-
-
-
-
 .features {
   padding: 120px 0;
+  display: flex;
 }
-.hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -194,7 +174,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
 }
 .features-text {
   font-weight: 400;
@@ -203,7 +182,8 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   width: calc((100% - 72px) / 4);
-  margin-bottom: 8px;
+  margin-top: 8px;
+  padding: 120px;
 }
 
 .features-list {
@@ -256,6 +236,7 @@ img {
 
 .project-card {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .portfolio {
   font-weight: 700;
@@ -292,21 +273,9 @@ img {
   text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .footer {
   background: #2e2f42;
   padding: 100px 0;
-
 }
 .footer-logo {
   font-weight: 700;
@@ -334,5 +303,4 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-
 }
