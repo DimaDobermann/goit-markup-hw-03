@@ -271,6 +271,7 @@ img {
 .project-card {
   background-color: #f4f4fd;
   padding: 120px 0;
+  border: 1px solid #e7e9fc;
 }
 .portfolio {
   font-weight: 700;
@@ -302,6 +303,8 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
+  padding: 32px 16px
+ 
 }
 .card-subtitle-text{
 
@@ -315,6 +318,8 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+  margin-bottom: 8px
+  
 }
 
 .footer {
