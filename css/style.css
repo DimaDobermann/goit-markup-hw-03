@@ -63,7 +63,6 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
-  
 }
 .header-menu-item {
 }
@@ -135,10 +134,6 @@ img {
   max-width: 496px;
   margin: 0 auto;
   margin-bottom: 48px;
-
-
-
-  
 }
 
 .button {
@@ -218,19 +213,17 @@ img {
   color: #2e2f42;
   text-transform: capitalize;
   text-align: center;
-  
+
   margin-bottom: 72px;
 }
 
 .team-list {
-  
   display: flex;
   gap: 24px;
 }
 
 .team-subtitle-text {
   padding: 32px 0;
-  
 }
 
 .team-item {
@@ -256,7 +249,6 @@ img {
   color: #434455;
   text-align: center;
   background-color: #ffffff;
-  
 }
 
 .project-card {
@@ -307,7 +299,6 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: left;
-  
 }
 
 .footer {
